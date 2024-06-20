@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-image: url(./images/bg.jpg);
+    font-size: 12px;
 }
 img{
     display: block;
@@ -11,4 +12,13 @@ img{
 }
 .btn{
     float: left;/* 用float浮動區塊，覆蓋原來的black */
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 150%; /*相等 font-size: 1.5em*/
+}
+p{
+    font-size: 1em; /*<p>預設font-size: 1em*/
 }
